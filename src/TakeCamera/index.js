@@ -43,7 +43,7 @@ function CameraScreen({ navigation }) {
 
     return (
         <View style={{ flex: 1, paddingVertical: 40, alignItems: 'center', justifyContent: 'center', backgroundColor: '#48C1F6' }}>
-            <Text style={{ fontSize: 20, color: 'white', marginHorizontal: 20, textAlign: 'center', marginTop: 10 }}>Take a pucture of the sky to check the weather forecast!</Text>
+            <Text style={{ fontSize: 20, color: 'white', marginHorizontal: 20, textAlign: 'center', marginTop: 10 }}>Take a picture of the sky to check the weather forecast!</Text>
             <View style={{ flex: 1, width: '90%', marginVertical: 20, marginHorizontal: 20, borderRadius: 20, overflow: 'hidden' }}>
                 <Camera ref={cameraRef} style={{ flex: 1 }} type={type}>
                 </Camera>
